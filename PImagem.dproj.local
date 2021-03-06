@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/24 22:53:17.000.901,=C:\Users\Tiago\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/25 23:50:41.000.444,=C:\Users\Tiago\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 14:26:50.310,=C:\Users\Tiago\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 14:45:02.995,D:\Projetos GitHub\Trabalhando com imagens\UImagem.dfm=C:\Users\Tiago\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/03/06 14:45:02.995,D:\Projetos GitHub\Trabalhando com imagens\UImagem.pas=C:\Users\Tiago\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/06 14:45:10.892,D:\Projetos GitHub\Trabalhando com imagens\PImagem.dproj=C:\Users\Tiago\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
