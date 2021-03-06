@@ -72,12 +72,16 @@ begin
     fileStreem.Free;
     //FreeAndNil(lZip);
   end;
-end;
+end;                                                //
 
 procedure TfrmFotos.FormShow(Sender: TObject);
 var
   memoryStreem : TMemoryStream;
+  //stringStreem : TStringStream;
+  //lzip : TZDecompressionStream;
+
 begin
+  //stringStreem := TStringStream.Create('d:\teste\texte.rar');
   qry.Close;
   qry.SQL.Clear;
   qry.SQL.Add('select imagem as img from tableimage');
@@ -85,6 +89,10 @@ begin
   memoryStreem := TMemoryStream.Create();
   try
     TBlobField(qry.FieldByName('img')).SaveToStream(memoryStreem);
+
+    //lzip := TZDecompressionStream.Create(memoryStreem);
+    //memoryStreem.CopyFrom(lzip,lzip.Size);
+
     memoryStreem.Position := 0;
     Image1.Picture.Bitmap.LoadFromStream(memoryStreem);
     Image1.Stretch := true;

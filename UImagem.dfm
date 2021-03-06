@@ -4,7 +4,7 @@ object frmFotos: TfrmFotos
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Fotos'
-  ClientHeight = 313
+  ClientHeight = 311
   ClientWidth = 342
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
